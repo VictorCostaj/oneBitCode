@@ -1,0 +1,13 @@
+boilerplate - ferramentas que reune todas as configurações - Vite.Js
+https://vitejs.dev/ -> aba começando template.
+react-ts 
+
+npm create vite@latest meu-app -- --template react-ts
+  cd meu-app -> diretório para rodar  npm install e depois npm run dev
+
+executa pacote --> npm install ou yarn
+para rodar em desenvolvimento - npm run dev.
+
+Preview
+
+
