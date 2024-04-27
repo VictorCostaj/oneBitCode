@@ -1,0 +1,65 @@
+.container {
+  background-color: #cccc;
+  border-radius: 1rem;
+  display: flex;
+  gap: 2rem;
+  height: 30rem;
+  margin: 2rem auto;
+  padding: 4rem;
+  width: 50rem;
+  box-shadow: 0 24px 32px -16px rgba(0, 0, 0, 0.4);
+}
+
+.poster {
+  border: 8px solid black;
+  box-shadow: 0 24px 32px -16px rgba(0, 0, 0, 0.4);
+}
+.container h2 {
+  font-size: 1.5rem;
+}
+.container p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.container button {
+  background-color: #121212;
+  border: 0;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  font-size: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 0.75em 1.25em;
+  transition: 0.3s;
+}
+
+.container button:hover {
+  background-color: #706c6c;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 27rem;
+  }
+
+  .container .poster {
+    width: 13rem;
+  }
+  .container p {
+    font-size: 0.95rem;
+    height: 20em;
+    text-align: justify;
+    letter-spacing: 3;
+    margin-bottom: 3em;
+  }
+  .container button {
+    margin-bottom: 2rem;
+  }
+}
